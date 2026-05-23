@@ -1,2 +1,2 @@
-"""Recursive JSON merge utility. Merges multiple JSON files with nested override support."""
-__version__ = "0.1.0"
+"""Recursive JSON merge utility with list strategies."""
+from .__main__ import deep_merge, merge_files, __version__
